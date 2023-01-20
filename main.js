@@ -18,7 +18,7 @@ const timer = setInterval(() => {
   }else{
     //slow down the audio
     audio.playbackRate = 0.935;
-    // audio.play();
+    audio.play();
   }
   //dom manipulation
   document.querySelector("#timer").innerHTML = formatted;
